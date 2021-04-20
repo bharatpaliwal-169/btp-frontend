@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.post-title{
+  color:  #115A6F;
+  font-family: 'EB Garamond', serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 84px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.post-content{
+  font-family:'Roboto', sans-serif;
+  color: #276678;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.bg-ctm{
+  background: #D3E0EA;
+}
+.post-title-2{
+  color:  #115A6F;
+  font-family: 'EB Garamond', serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+.post-content-2{
+  color: #276678;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+
+.yoga-bf-head{
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.155em;
+  text-align: center;
+  color:#1687A7;
+  
+}
+
+.clrCtm{
+  background-color: #1687A7;
+  color:#D3E0EA;
+}
