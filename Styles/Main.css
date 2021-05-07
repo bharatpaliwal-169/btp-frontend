@@ -64,3 +64,67 @@
   background-color: #1687A7;
   color:#D3E0EA;
 }
+
+
+
+
+/* team */
+#design{
+  background-image : url('../images/ladha-main.jpg');
+  background-position: center;
+  background-repeat:none;
+  background-size: cover;
+  height: 45vh;
+}
+
+#de{
+  background-image : url('../images/naman-main.png');
+  background-position: center;
+  background-repeat:none;
+  background-size: cover;
+  height: 45vh;
+}
+
+
+#dev{
+  background-image : url('../images/me.png');
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: contain;
+  height: 45vh;
+}
+
+.member-name{
+  font-family: 'EB Garamond', serif;
+  font-style: bold;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  margin-bottom: 1px;
+  margin-top: 8px;
+}
+.member-position{
+  margin-top: -10px;
+  font-family: 'EB Garamond', serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+.team-footer{
+  position: relative;
+  top: 65%;
+  opacity: 0.75;
+  background-color: #1687A7BF;
+  width:100%;
+  border-radius: 0px 0px 24px 24px;
+}
+
+
+/* benifits of yoga */
+.yoga-item{
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  /* text-align: center; */
+  color: #276678;
+}
