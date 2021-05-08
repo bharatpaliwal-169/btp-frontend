@@ -56,7 +56,10 @@
             <a class="nav-link" href="#contact">Contact US</a>
           </li>
           <li class="nav-item margin-from-right">
-            <a class="btn btn-sm btn-secondary nav-link" href="camera.html">Get Demo</a>
+            <!-- <a class="btn btn-sm btn-secondary nav-link" href="camera.html">Get Demo</a> -->
+            <button type="button" class="btn ctmBtn-1" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Get Demo
+            </button>          
           </li>
         </ul>
       </div>
@@ -64,6 +67,52 @@
     <!-- nav cont end -->
     </div>
   </nav>
+
+
+  <!-- modal -->
+    <!-- Button trigger modal -->
+  <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Launch static backdrop modal
+  </button> -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header ">
+          <h5 class="modal-title mod-head" id="staticBackdropLabel">
+            Please fill in details to proceed
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingName" placeholder="Enter Your Name">
+              <label for="floatingName">Name</label>
+            </div>
+            
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            
+            <div class="form-floating mb-3">
+              <input type="tel" class="form-control" id="floatingInput" placeholder="+91-123456789" >
+              <label for="floatingTextarea2">Contact Number</label>
+            </div>
+            
+          </form>
+        </div>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button> -->
+          <a href="camera.html" type="button" class="btn ctmBtn-1 me-2">Proceed</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
   <!-- landing -->
   <div class="container " id="home">
@@ -77,7 +126,11 @@
           Experience the benifits of our product by yourself! 
         </p>
 
-        <a href="camera.html" class='btn ctmBtn-1 me-2'>Get Demo</a>
+        <!-- <a href="camera.html" class='btn ctmBtn-1 me-2'>Get Demo</a> -->
+        <button type="button" class="btn ctmBtn-1 me-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          Get Demo
+        </button>
+      
         <button class='btn ctmBtn'>Watch a Video</button>
       </div>
       <div class="col-12 col-md-4 offset-md-1 mt-5 text-center">

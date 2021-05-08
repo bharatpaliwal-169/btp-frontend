@@ -128,3 +128,12 @@
   /* text-align: center; */
   color: #276678;
 }
+
+.mod-head{
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #286577;
+}
