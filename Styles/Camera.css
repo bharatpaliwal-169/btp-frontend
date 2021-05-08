@@ -1,3 +1,26 @@
 #webcam{
   border: 5px solid #2D6A7B;
 }
+
+.posture-card{
+  padding: 10px;
+  height: 70vh;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px 4px rgba(0, 0, 0, 0.16);
+  border-radius: 17px;
+}
+
+.nav-pills{
+  background: #D3E0EA!important;
+  border-radius: 29px!important;
+  padding: 5px;
+}
+
+/* #pills-home-tab{
+  background-color: #2D6A7B!important;
+  border-radius: 29px!important;
+} */
+.active{
+  background-color: #2D6A7B!important;
+  border-radius: 29px!important;
+}

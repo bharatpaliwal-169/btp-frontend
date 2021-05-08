@@ -52,7 +52,27 @@
       <div class="col-12 text-center mb-4">
         <h1 class="post-title text-center">Demo</h1>
       </div>
-      <div class="col-12 text-center">
+      <div class='col-2 offset-md-5  mb-4'>
+        <ul class="nav nav-pills mb-3 text-center justify-content-center align-items-center" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" 
+              data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" 
+              aria-selected="true">
+                Home
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link " id="pills-profile-tab" data-bs-toggle="pill" 
+              data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" 
+              aria-selected="false">
+                Profile
+            </button>
+          </li>
+        </ul>
+      </div>
+      
+
+      <div class="col-7 text-center">
         <button id="cameraFlip" class="btn btn-lg btn-info d-block d-sm-block d-lg-none">
           Flip camera
         </button>
@@ -67,6 +87,36 @@
         </section>
       </div>
 
+    <div class="col-3 offset-md-1 tab-content" id="pills-tabContent">
+
+      
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="card posture-card">
+          <h4 class='cart-title'>Pose :</h4>
+          <h5 style='color: #115A6F;' >Vriksasana</h5>
+          <hr class="dropdown-divider">
+          <h5>Correctness :</h5>
+          <h4 class="text-success">Good</h4>
+          <hr class="dropdown-divider">
+          <h5>Correction :</h5>
+          
+        </div>
+      </div>
+      
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+        <div class="card posture-card">
+          <h4 class='cart-title'>Mudra :</h4>
+          <h5 style='color: #115A6F;' >Patoaka Mudra</h5>
+          <hr class="dropdown-divider">
+          <h5>Correctness :</h5>
+          <h4 class="text-success">Good</h4>
+          <hr class="dropdown-divider">
+          <h5>Correction :</h5>
+        </div>
+      </div>
+    
+    </div>
+    
       <div class='col-12 mb-4 mt-4 text-center'>
         <h3>
           Your Real-Time Pose
