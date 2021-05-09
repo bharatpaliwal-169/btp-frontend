@@ -69,8 +69,15 @@
 
 
 /* team */
+#lead{
+  background-image : url('../images/team/lead.jpeg');
+  background-position: center;
+  background-repeat:none;
+  background-size: cover;
+  height: 45vh;
+}
 #design{
-  background-image : url('../images/ladha-main.jpg');
+  background-image : url('../images/team/ladha-main.jpg');
   background-position: center;
   background-repeat:none;
   background-size: cover;
@@ -78,7 +85,7 @@
 }
 
 #de{
-  background-image : url('../images/naman-main.png');
+  background-image : url('../images/team/naman-main.png');
   background-position: center;
   background-repeat:none;
   background-size: cover;
@@ -87,7 +94,7 @@
 
 
 #dev{
-  background-image : url('../images/me.png');
+  background-image : url('../images/team/me.png');
   background-position: center;
   background-repeat:no-repeat;
   background-size: contain;
@@ -97,7 +104,7 @@
 .member-name{
   font-family: 'EB Garamond', serif;
   font-style: bold;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #FFFFFF;
   margin-bottom: 1px;
   margin-top: 8px;
@@ -109,9 +116,10 @@
   font-size: 1rem;
   color: #FFFFFF;
 }
+
 .team-footer{
   position: relative;
-  top: 65%;
+  top: 67%;
   opacity: 0.75;
   background-color: #1687A7BF;
   width:100%;
@@ -136,4 +144,9 @@
   font-size: 2rem;
   line-height: 2rem;
   color: #286577;
+}
+
+.no-sh{
+  border: none!important;
+  box-shadow : none!important;
 }

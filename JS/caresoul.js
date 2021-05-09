@@ -1,3 +1,3 @@
 $('input').on('change', function() {
-  $('body').toggleClass('orange');
+  $('car-body').toggleClass('orange');
 });

@@ -16,9 +16,10 @@
   <script src="https://use.fontawesome.com/f16998d44c.js"></script>
 
   <!-- css -->
+  <link rel="stylesheet" href="./Styles/Caresoul.css">
+  <link rel="stylesheet" href="./Styles/car-2.css">
   <link rel="stylesheet" href="./Styles/Base.css">
   <link rel="stylesheet" href="./Styles/Main.css">
-  
   
   <!-- Title of page -->
   <title>Yoga Pose Detection</title>
@@ -89,17 +90,17 @@
           <form>
             <div class="form-floating mb-3">
               <input type="text" class="form-control" id="floatingName" placeholder="Enter Your Name">
-              <label for="floatingName">Name</label>
+              <label for="floatingTrialName">Name</label>
             </div>
             
             <div class="form-floating mb-3">
               <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-              <label for="floatingInput">Email address</label>
+              <label for="floatingEmail-id">Email address</label>
             </div>
             
             <div class="form-floating mb-3">
               <input type="tel" class="form-control" id="floatingInput" placeholder="+91-123456789" >
-              <label for="floatingTextarea2">Contact Number</label>
+              <label for="floatingMobile">Contact Number</label>
             </div>
             
           </form>
@@ -169,33 +170,33 @@
       <!-- cards   -->
       <div class="col-12">
         <div class="row">
-          <div class="col-6 col-md-2 offset-md-2 mt-5">
-            <img src="./images/benefits/brain.svg" alt="card" class='img-fluid'>
+          <div class="col-6 col-md-2 offset-md-2 mt-5 ">
+            <img src="./images/benefits/brain.svg" alt="card" class='no-sh img-fluid'>
             <p class='yoga-item'>Overall Mental Health</p>
           </div>
 
           <div class="col-6 col-md-2 offset-md-1 mt-5">
-            <img src="./images/benefits/heart.svg" alt="card" class='img-fluid'>
+            <img src="./images/benefits/heart.svg" alt="card" class='no-sh img-fluid'>
             <p class='yoga-item'>Reduced Risk Of Heart Disease</p>
           </div>
 
-          <div class="col-6 col-md-2 offset-md-1 mt-5">
-            <img src="./images/benefits/kidney.svg" alt="card" class='img-fluid'>
+          <div class="col-6 col-md-2 offset-md-1 mt-5 ">
+            <img src="./images/benefits/kidney.svg" alt="card" class='no-sh img-fluid'>
             <p class='yoga-item'>Regulates Your Adrenal Glands</p>
           </div>
 
-          <div class="col-6 col-md-2 offset-md-2 mt-5">
-            <img src="./images/benefits/liver.svg" alt="card" class='img-fluid'>
+          <div class="col-6 col-md-2 offset-md-2 mt-5 ">
+            <img src="./images/benefits/liver.svg" alt="card" class='no-sh img-fluid'>
             <p class='yoga-item'>Strong Immune System</p>
           </div>
 
-          <div class="col-6 col-md-2 offset-md-1 mt-5">
-            <img src="./images/benefits/lungs.svg" alt="card" class='img-fluid'>
+          <div class="col-6 col-md-2 offset-md-1 mt-5 ">
+            <img src="./images/benefits/lungs.svg" alt="card" class='no-sh img-fluid'>
             <p class='yoga-item'>Better Respiration</p>
           </div>
 
-          <div class="col-6 col-md-2 offset-md-1 mt-5">
-            <img src="./images/benefits/bone.svg" alt="card" class='img-fluid'>
+          <div class="col-6 col-md-2 offset-md-1 mt-5 no-sh">
+            <img src="./images/benefits/bone.svg" alt="card" class='no-sh img-fluid'>
             <p class='yoga-item'>Improves Your Bone Health</p>
           </div>
 
@@ -209,14 +210,94 @@
 
   <!-- caresouls -->
 
-  <!-- <div class="container">
+  <div class="container-fluid bg-ctm mt-5 mb-5 align-items-center justify-content-center">
     <div class="row">
-      <div class="col-12">
-        carousel
+      <div class="col-12  align-items-center justify-content-center mt-5">
+        <h3 class='yoga-bf-head'>DIFFERENT YOGA POSES</h3>
       </div>
     </div>
-  </div> -->
+
+    <article class="car-main  align-items-center">
+      <div class="container car-body">
+        <div class="row car-container">
+          
   
+          <input type="radio" name="slider" id="item-1" checked>
+          <input type="radio" name="slider" id="item-2">
+          <input type="radio" name="slider" id="item-3">
+          <input type="radio" name="slider" id="item-4">
+          <input type="radio" name="slider" id="item-5">
+    
+          <div class="cards">
+            <label class="card car-card" for="item-1" id="song-1">
+              <img class='car-img' src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80" alt="song">
+            </label>
+            <label class="card car-card" for="item-2" id="song-2">
+              <img class='car-img' src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
+            </label>
+            <label class="card car-card" for="item-3" id="song-3">
+              <img class='car-img' src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
+            </label>
+            <label class="card car-card" for="item-4" id="song-4">
+                <img class='car-img' src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202009/woman-working-at-home-using-he_1200x768.jpeg?j19i2kjzUFznUg1TxnAnYkhFhSZyPo18&size=770:433" alt="song">
+              </label>
+              <label class="card car-card" for="item-5" id="song-5">
+                <img  class='car-img' src="https://pilbox.themuse.com/image.jpg?filter=antialias&h=367&opt=1&pos=top-left&prog=1&q=keep&url=https%3A%2F%2Fcms-assets.themuse.com%2Fmedia%2Flead%2F9b60b15e-0144-4fa7-8483-3e30adc23425.jpg%3Fv%3D91b0cdd9da04527fd07cc85c378cfc2d0a5c7469&w=750" alt="song">
+              </label>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+  
+
+
+    <!-- Mudras -->
+
+    <div class="container-fluid mt-5 mb-5 align-items-center justify-content-center">
+      <div class="row">
+        <div class="col-12  align-items-center justify-content-center mt-5">
+          <h3 class='yoga-bf-head'>DIFFERENT MUDRAS</h3>
+        </div>
+      </div>
+  
+      <article class="car-main  align-items-center">
+        <div class="container car-body">
+          <div class="row car-container">
+            
+    
+            <input type="radio" name="slider" id="item-2-1" checked>
+            <input type="radio" name="slider" id="item-2-2">
+            <input type="radio" name="slider" id="item-2-3">
+            <input type="radio" name="slider" id="item-2-4">
+            <input type="radio" name="slider" id="item-2-5">
+      
+            <div class="cards">
+              <label class="card car-card" for="item-2-1" id="song-2-1">
+                <img class='car-img' src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80" alt="song">
+              </label>
+              <label class="card car-card" for="item-2-2" id="song-2-2">
+                <img class='car-img' src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
+              </label>
+              <label class="card car-card" for="item-2-3" id="song-2-3">
+                <img class='car-img' src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
+              </label>
+              <label class="card car-card" for="item-2-4" id="song-2-4">
+                  <img class='car-img' src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202009/woman-working-at-home-using-he_1200x768.jpeg?j19i2kjzUFznUg1TxnAnYkhFhSZyPo18&size=770:433" alt="song">
+                </label>
+                <label class="card car-card" for="item-2-5" id="song-2-5">
+                  <img  class='car-img' src="https://pilbox.themuse.com/image.jpg?filter=antialias&h=367&opt=1&pos=top-left&prog=1&q=keep&url=https%3A%2F%2Fcms-assets.themuse.com%2Fmedia%2Flead%2F9b60b15e-0144-4fa7-8483-3e30adc23425.jpg%3Fv%3D91b0cdd9da04527fd07cc85c378cfc2d0a5c7469&w=750" alt="song">
+                </label>
+            </div>
+      
+          </div>
+        </div>
+      </article>
+    
+    </div>
+    
+
+
 
   <!-- team -->
   <div class="container-fluid bg-ctm mt-5 mb-5" id="about" >
@@ -225,26 +306,36 @@
         <h3 class='yoga-bf-head'>MEET OUR TEAM</h3>
       </div>
 
-      <div class="col-12 col-md-2 offset-md-2 mb-5" >
-        <div class='card'id="design">
+
+      <div class="col-6 col-md-2 offset-md-2 mb-5" >
+        <div class='card'id="lead">
           <div class='card-footer team-footer'>
             <p class='member-name'>
-              Manav Ladha
+              Abhishek Sharma
             </p>
             <p class='member-position'>
-              Designer
+              Project Lead
             </p>
           </div>
         </div>
       </div>
-
-
-      <div class="col-12 col-md-2 offset-md-1 mb-5">
-
-        <div class='card'id="de">
+      <div class="col-6 col-md-2 offset-md-1 mb-5" >
+        <div class='card'id="design">
           <div class='card-footer team-footer'>
             <p class='member-name'>
-              Naman 
+              Yash Agarwal
+            </p>
+            <p class='member-position'>
+              Data Science 
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2 offset-md-1 mb-5" >
+        <div class='card'id="design">
+          <div class='card-footer team-footer'>
+            <p class='member-name'>
+              Yash Shah
             </p>
             <p class='member-position'>
               Data Science
@@ -252,7 +343,22 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-2 offset-md-1 mb-5">
+
+
+      <div class="col-6 col-md-2 offset-md-2 mb-5" >
+        <div class='card'id="design">
+          <div class='card-footer team-footer'>
+            <p class='member-name'>
+              Manav Ladha
+            </p>
+            <p class='member-position'>
+              Design Lead
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-6 col-md-2 offset-md-1 mb-5">
         <div class='card'id="dev">
           <div class='card-footer team-footer'>
             <p class='member-name'>
@@ -264,6 +370,20 @@
           </div>
         </div>
       </div>
+      
+      <div class="col-6 col-md-2 offset-md-1 mb-5">
+        <div class='card'id="de">
+          <div class='card-footer team-footer'>
+            <p class='member-name'>
+              Naman 
+            </p>
+            <p class='member-position'>
+              Developer
+            </p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -283,12 +403,12 @@
         <form>
           <div class="form-floating mb-3">
             <input type="text" class="form-control" id="floatingName" placeholder="Enter Your Name">
-            <label for="floatingName">Name</label>
+            <label for="floatingUserName">Name</label>
           </div>
           
           <div class="form-floating mb-3">
             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
+            <label for="floatingEmail">Email address</label>
           </div>
           
           <div class="form-floating mb-3">
@@ -316,7 +436,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 
   integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   <script src="./JS/Smooth.js"></script>
-
+  <script src="./JS/caresoul.js"></script>
   <noscript>
     This page requires javascript.
   </noscript>
