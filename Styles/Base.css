@@ -48,7 +48,7 @@ label:focus,
 }
 
 .ctmBtn{
-  background: #F4EEE8;
+  
   color: #276678!important;
   border-radius: 9999px;
   padding : 0.75rem 2.25rem;
@@ -60,15 +60,29 @@ label:focus,
 
 .ctmBtn-1{
   background: #1687A7;
-  color: #D3E0EA;
+  color: #ffffff;
   border-radius: 9999px;
   padding : 0.75rem 2.25rem;
   font-size: 1rem;
   font-weight : 500;
   font-family : 'Roboto',sans-serif;
 }
+.ctmBtn-0{
+  background: #F4EEE8;
+  color: #276678;
+  border-radius: 9999px;
+  padding : 0.625rem 2rem;
+  font-size: 1rem;
+  font-weight : 600;
+  font-family : 'Roboto',sans-serif;
+}
 
 .ctmBtn-1:hover{
+  background-color :#276678!important;
+  color: #ffffff;
+  /* border: 2px solid #1687A7; */
+}
+.ctmBtn-0:hover{
   background-color :#D3E0EA!important;
   color: #1687A7;
   /* border: 2px solid #1687A7; */

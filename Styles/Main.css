@@ -76,30 +76,7 @@
   background-size: cover;
   height: 45vh;
 }
-#design{
-  background-image : url('../images/team/ladha-main.jpg');
-  background-position: center;
-  background-repeat:none;
-  background-size: cover;
-  height: 45vh;
-}
 
-#de{
-  background-image : url('../images/team/naman-main.png');
-  background-position: center;
-  background-repeat:none;
-  background-size: cover;
-  height: 45vh;
-}
-
-
-#dev{
-  background-image : url('../images/team/me.png');
-  background-position: center;
-  background-repeat:no-repeat;
-  background-size: contain;
-  height: 45vh;
-}
 
 .member-name{
   font-family: 'EB Garamond', serif;
@@ -133,7 +110,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 1.2rem;
-  /* text-align: center; */
+  text-align : center;
   color: #276678;
 }
 
